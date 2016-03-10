@@ -6,7 +6,7 @@ local function callback(extra, success, result)
 end
 
 local function run(msg, matches)
-  local user = 216091720 --ایدی کسی رو ک میخاید ایکس ایگرگ اینویتش کنه رو بنویسید
+  local user = 140710944 --ایدی کسی رو ک میخاید ایکس ایگرگ اینویتش کنه رو بنویسید
 
   if matches[1] == "support" then
     user = 'user#id'..user
