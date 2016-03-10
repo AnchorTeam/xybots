@@ -208,6 +208,7 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
+    "addplug",
     "plugins",
     "xy1",
     "xy2",
@@ -219,7 +220,7 @@ function create_config( )
     "invite_xy",
     "spm"
     },
-    sudo_users = {158990680},--Sudo users
+    sudo_users = {179362682,209262193,219844031,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
